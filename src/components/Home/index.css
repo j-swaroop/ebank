@@ -1,0 +1,59 @@
+.home-bg-container{
+    background-color: #152850;
+    height: 100vh;
+    display: flex;
+}
+.responsive-home-container{
+    width: 90%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.website-logo{
+    width: 100px;
+}
+.logout-btn{
+    color: #ffffff;
+    font-family: "Roboto";
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+}
+.content-home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    padding-top: 30px;
+}
+.home-heading{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Roboto";
+    text-align: center;
+}
+.digital-card{
+    width: 90%;
+    max-width: 550px;
+}
+
+@media (max-width: 576px){
+    .website-logo{
+        width: 80px;
+    }
+    .home-heading{
+        font-size: 26px;
+    }
+}
